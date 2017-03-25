@@ -1,0 +1,24 @@
+body {
+  background-color: #EEEEEE;
+}
+.submission {
+  background-color: #FFFFFF;
+  font: normal x-small verdana,arial,helvetica,sans-serif;
+  margin-top: 5px;
+  margin-right: -5px;
+  margin-left: 5px;
+  padding: 0px;
+}
+.submission .text h3 {
+  color: #999999;
+  margin-top: 15px;
+}
+.submission .text p {
+  color: #000000;
+  font-size: 12px;
+}
+.sidebar {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: -5px;
+}
