@@ -4,10 +4,11 @@ import scrape
 
 reddit = praw.Reddit('Lurk3rB0t', user_agent='Lurk3rB0t user agent')
 
-subreddit = reddit.subreddit("learnpython")
 
-for submission in subreddit.hot(limit=5):
-    print("Title: ", submission.title)
-    print("Text: ", submission.selftext)
-    print("Score: ", submission.score)
-print("---------------------------------\n")
+while True:
+#	try:
+#		scrape.scrape(reddit.random_subreddit().random())
+#	except Exception:
+#		pass
+	print("lurkin")
+	scrape.scrape(reddit.random_subreddit().random())
