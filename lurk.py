@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import praw
+import scrape
 
 reddit = praw.Reddit('Lurk3rB0t', user_agent='Lurk3rB0t user agent')
 
