@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import praw
 
-reddit = praw.Reddit('Lurk3rB0t')
+reddit = praw.Reddit('Lurk3rB0t', user_agent='Lurk3rB0t user agent')
 
 subreddit = reddit.subreddit("learnpython")
 
